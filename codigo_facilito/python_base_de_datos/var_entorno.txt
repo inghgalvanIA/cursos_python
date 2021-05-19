@@ -1,0 +1,3 @@
+crear variables de entorno 
+
+export USER_MYSQL=root
