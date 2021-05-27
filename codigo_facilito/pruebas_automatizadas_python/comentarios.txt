@@ -1,0 +1,46 @@
+para compilar con Doctest
+
+python3 -m doctest test.txt
+
+clase 1
+
+La suma de 2 + 2 es igual a 4
+>>> 2 + 2
+4
+
+La suma de 10 + 20 es igual a 30
+>>> 10 + 20
+30
+
+>>> def suma(*args):
+...    return sum(args)
+
+La suma de 10 + 20 + 30 debe ser igual a 60
+>>> suma(10, 20, 30)
+60
+
+clase 2
+
+para importar un modulo con una funcion
+
+>>> from algoritmos import fibonacci
+>>> fibonacci(12)
+144
+
+clase 3 probar una clase
+
+"""
+
+>>> recursivo = Recursivo()
+>>> recursivo.factorial(5)
+120
+
+"""
+
+class Recursivo:
+    def factorial(self,number):
+        if number == 0:
+             return 1
+        else:
+            return number * self.factorial(number - 1)
+
