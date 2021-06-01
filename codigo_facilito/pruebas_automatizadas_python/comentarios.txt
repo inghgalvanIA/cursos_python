@@ -44,3 +44,9 @@ class Recursivo:
         else:
             return number * self.factorial(number - 1)
 
+clase 3
+
+para tener mas informacion de la prueba se agrega la bandera -v 
+
+
+python3 -m doctest -v  algoritmos.py

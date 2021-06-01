@@ -35,3 +35,8 @@ class Recursivo:
         else:
             return number * self.factorial(number - 1)
 
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod() 
+    #hacer las pruebas para otro archivo
+    doctest.testfile("text.txt")
