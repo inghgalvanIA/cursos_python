@@ -18,6 +18,7 @@ users = [
     ("user2","password","user2@gamil.com"),
     ("user3","password","user3@gamil.com"),
     ("user4","password","user4@gamil.com"),
+    ("user5","password","user5@gamil.com"),
 ]
 
 if __name__ =='__main__':
@@ -51,12 +52,32 @@ if __name__ =='__main__':
             cursor.executemany(query,users)
             connect.commit()
 
+            #æctualziar un registro
+
+            query = "UPDATE users SET username = %s WHERE id = %s"
+            values = ("cambio de username",1)
+
+            cursor.execute(query, values)
+            connect.commit()
+
             #obtener un registro
             query = "SELECT id, username, email FROM users"
             rows = cursor.execute(query)
 
+            #si requeremos solo una cantidad linmitado de registros
+                       #cursor.fetchmany(3)
             for user in cursor.fetchall():
                 print(user)
+
+            #eliminar un registro
+
+            query = "DELETE FROM users WHERE id = %s"
+            cursor.execute(query,(5,))
+
+            connect.commit()
+
+
+
 
     except pymysql.err.OperationalError as err:
         print("No fue posible realizar la conexiòn")
