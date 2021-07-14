@@ -1,0 +1,23 @@
+instalar pip
+
+sudo pat update
+
+sudo apt install python3-pip
+
+instalar virtualenv
+
+instalar virtualenv
+
+sudo pip3 install virtualenv 
+
+crear un entorno virtual
+
+virtual env -p python3 nombre_entorno
+
+activar el entorno virtual
+
+source nombre_entorno/bin/activate
+
+desactivar el entorno virtual
+
+deactivaye
