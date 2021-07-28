@@ -1,0 +1,8 @@
+la herencia
+
+un objeto puede heredar metodos de otro objeto al que llamaremos padre
+
+va de lo genereal a lo especifico
+
+se va poder herdar varias veces
+

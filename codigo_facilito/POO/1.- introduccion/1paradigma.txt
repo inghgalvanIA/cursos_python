@@ -1,0 +1,9 @@
+¿Que es un paradigma en progrmacion?
+
+es un estilo, una forma de solucionar problemas
+
+un conjunto de cosas que sirven como un modelo
+
+POO 
+
+las soluciones se organizan y representan con objetos

@@ -1,0 +1,24 @@
+clases:
+
+son doucmentos en los que se define el comportamiento del obejto
+las propiedades que tienen las accciones que s epuedne realizar como se usara el obejto
+
+podemos crear muchos objetos similares sin tener que repetir las condfiguraciones
+
+class Usuario
+
+correoElectronico string
+
+nombre string
+
+nombredel Canal string
+
+edad int
+
+publicar()
+
+subirFoto()
+
+añadirAmigo()
+
+fin clase

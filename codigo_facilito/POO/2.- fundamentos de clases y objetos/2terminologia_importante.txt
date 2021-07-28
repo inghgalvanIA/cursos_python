@@ -1,0 +1,13 @@
+instanciamos 
+
+crear un objeto a partir de una clase
+
+
+instancia 
+
+un objeto creado a partir de una clase
+
+del estado
+
+conjunto de valores almacenados que pueden ser modificados mientras el programa
+se ejecuta

@@ -1,0 +1,26 @@
+En los lenguaje orientados a objetos
+se utiliza una palabra reservada como this o self 
+estas palabras nos permiten identidicar el objeto con el que estamos trabajando dentro de la clase
+
+a este concepto le llamamos contexto 
+
+class Tela:
+
+    color = "blanco"
+
+    def imprimirColor(self):
+
+        print("color",self.color)
+
+
+telaRoja = Tela()
+
+telaAmarrilla = Tela()
+
+telaRoja.color = "rojo"
+
+telaAmarrilla.color = "amarrilla"
+
+telaRoja.imprimirColor()
+
+telaAmarrilla.imprimirColor()

@@ -1,0 +1,19 @@
+En python los objetos tienen atributos
+
+y ademas pueden tener propiedades depende del lenguaje de programacion 
+
+
+las propiedades o atributos de un objeto son una coleccion de datos que el objeto guarda
+
+y tiene relacion con la tarea a cumplir del objeto
+
+si la tarea de un objeto es pintar es conveninete que una de sus propuedades similares
+
+el color y cantidad de pintura que tiene
+
+las propiedades de cada objeto son distintos entre ellos
+
+colores distintas
+
+al valor de todas propiedades del objeto lo llamamos el estado del objeto 
+
