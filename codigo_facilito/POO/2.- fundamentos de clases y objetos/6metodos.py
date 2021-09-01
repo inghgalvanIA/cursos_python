@@ -3,6 +3,11 @@
 #retornar el valor de una propiedad
 #hacer calculos con los valores de las propiedades
 
+# def nombre_metodo(self):
+#lineas de codigo metodo
+
+#y la instacia del mentodo
+#nombre_objeto.nombre_instancias()
 
 class Usuario:
     nombre = "Hector"

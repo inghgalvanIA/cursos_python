@@ -1,0 +1,6 @@
+abstraccion es tomar un concepto o un problema complejo ignorar los detallles y concentranos en un tema mas abastracto
+
+ocultar detalles inecesarios y solo exponer lo escencial 
+
+donde se sua la abstraccion 
+evitar problemas al momento de lamacenar una estructura en tu programa

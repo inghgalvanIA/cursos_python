@@ -1,0 +1,12 @@
+metodos que colocamos en nuestro codigo para modificar los valores de propiedades de un objeto
+son metodos accesores
+
+existen 2 tipos 
+
+-getters
+-setter
+
+para misma propiedad tienen ambos metodos
+
+getter: debera retornar el valor actual de la propiedad
+setter: asignar un nuevo valor de la propiedad

@@ -1,0 +1,26 @@
+alcance de una propiedad
+
+quien o que puede alcanzar una propiedad de nuestro objeto
+
+vamos a tener 3 tipos de alcance
+
+-propiedades publicas
+-propiedades protegidas
+-propiedades privadas
+
+tipos de forma alcanzar una propiedad del objeto
+-dentro de la misma clase que instanciamso
+-desde una clase que haya heredado de la clase padre
+-atravez de la instancia de un objeto 
+
+publicas
+-desde la clase que declaro la propiedad
+-desde clases que heredan de la que declaro la propiedad(padre)
+-desde una instancia
+
+protegidas
+-desde la clase que declaro la propiedad
+-desde clases que heredan de la que declaro la propiedad(padre)
+
+privada
+-desde la clase que declaro la propiedad

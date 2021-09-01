@@ -1,0 +1,5 @@
+se encapsula un objeto para que no se puedan editar los atributos de nuestro objeto
+
+los datos y las funciones que manipulan los datos se envian como una sola unidad
+
+exponemos metodos que alteran el estado de un objeto

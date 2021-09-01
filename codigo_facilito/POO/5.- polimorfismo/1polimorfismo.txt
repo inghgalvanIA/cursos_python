@@ -1,0 +1,12 @@
+polimorfismo
+
+habuilidad de un objeto de agarrar diferentes formass
+
+ignora datos y muestra lo que mas convenga
+
+donde usa el polimorfismo 
+
+ducktype dependiendo del corpontamiento se administra
+
+El origen del término Duck Typing se remonta a la frase de James Whitcomb
+que dijo. "cuando veo un pato que cmaina como pato, hace como pato y grazna como pato, puedo decir que es un pato"

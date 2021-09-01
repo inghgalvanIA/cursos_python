@@ -1,7 +1,7 @@
 """
 1.- Se ejecuta de manera automática cuando instanciamos un nuevo objeto de una clase. 
 2.- Tiene un nombre definido en el lenguaje, por ejemplo en python es init 
-3.- Su tarea es inicializar el objeto.
+3.- Su tarea es inicializar el objeto ejemplo un contador en 0 .
 
 se declara el metodo
 

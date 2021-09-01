@@ -1,14 +1,11 @@
-"""
-las propiedades de la clase hijo heredara del clase padre
-el hijo puede usar los atributos del padre
-
-pero el padre no puedo usar los atributos del hijo
-
-
-"""
-
-
 #clase padre 
+"""
+
+Extender un metodo de la clase padre para editarlo
+
+"""
+
+
 class Usuario:
     def __init__(self,nombre):
         # Metodo constructor
@@ -29,6 +26,7 @@ class Empleado(Usuario):
         print(self.salario)
     
     def saludar(self):
+        super().saludar("Hola")
         print(f"Mi nombre es: {self.nombre} y gano {self.salario}")
 
 empleado = Empleado("Hector")
@@ -36,3 +34,18 @@ empleado.saludar()
 empleado.modificar_salario(1000)
 empleado.ver_salario()
 empleado.saludar()
+
+class Pagina:
+    def imprimir_pie_pagina(self):
+        print(self.pie_pagina)
+
+class PaginaLegal(Pagina):
+    def imprimir_pie_pagina(self):
+        
+        print("Derechos reservados")
+        super().imprimir_pie_pagina()
+
+html = PaginaLegal()
+html.pie_pagina= "<p>Hola</p>"
+
+html.imprimir_pie_pagina()
