@@ -10,7 +10,7 @@ c: bool= True
 
 print(a,b,c)
 
-#se puded pedir que el valor ingresado sea de un tipo d evalor en especifico y que una funcion regrese un valor en especifico
+#se puded pedir que el valor ingresado sea de un tipo de valor en especifico y que una funcion regrese un valor en especifico
 
 def suma(valor_uno: int,valor_dos: int) -> int:
     resultado = valor_uno + valor_dos
